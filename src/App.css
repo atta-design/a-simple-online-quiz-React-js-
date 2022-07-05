@@ -1,0 +1,56 @@
+.App {
+  text-align: center;
+}
+
+.chooseBTN {
+  width: 300px;
+  height: 40px;
+  background-color: gray;
+  color: cornsilk;
+  margin-top: 10px;
+  border: none;
+  font-size: medium;
+}
+.chooseBTN:hover {
+  background-color: rgb(197, 190, 190);
+  transition: ease 0.6s;
+}
+/* .chooseBTN:active {
+  background-color: red;
+} */
+.chooseBTN:focus {
+  background-color: red;
+}
+.nextBTN {
+  width: 400px;
+  height: 40px;
+  background-color: rgb(77, 77, 247);
+  color: antiquewhite;
+  font-size: medium;
+  margin-top: 30px;
+  border: none;
+}
+.nextBTN:hover {
+  background-color: rgb(111, 111, 222);
+  transition: ease 0.6s;
+  border: none;
+}
+.resultBTN{
+  width: 400px;
+  height: 40px;
+  background-color: rgb(28, 111, 21);
+  color: antiquewhite;
+  font-size: medium;
+  margin-top: 30px;
+  border: none;
+}
+.resultBTN:hover {
+  background-color: rgb(8, 165, 8);
+  transition: ease 0.6s;
+  border: none;
+}
+.questionText{
+  font-size: large;
+  font-weight: 700;
+  margin-top: 100px;
+}
